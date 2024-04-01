@@ -273,26 +273,25 @@ tr:hover .cut {
     font-size: 80%;
 }
     
-/* Estilos para el encabezado */
 header {
-    position: fixed;
-    top: 1cm; /* Margen superior de 1cm */
-    left: 1cm; /* Margen izquierdo de 1cm */
-    right: 1cm; /* Margen derecho de 1cm */
-    width: calc(100% - 2cm); /* Autoajuste al ancho de la hoja con márgenes */
+    margin: 0 0 3em;
+    overflow: hidden; /* Añadido para manejar el colapso del margen superior */
+    position: fixed; /* Fija el encabezado en la parte superior de la página */
+    width: 100%; /* Ocupa todo el ancho de la página */
+    z-index: 1000; /* Asegura que el encabezado esté por encima del contenido */
 }
 
-/* Estilos para el pie de página */
+article {
+    padding-top: 3em; /* Agrega un espacio en la parte superior del artículo para evitar que se superponga con el encabezado fijo */
+}
+Para el pie de página (footer):
 footer {
-    position: fixed;
-    bottom: 1cm; /* Margen inferior de 1cm */
-    left: 1cm; /* Margen izquierdo de 1cm */
-    right: 1cm; /* Margen derecho de 1cm */
-    width: calc(100% - 2cm); /* Autoajuste al ancho de la hoja con márgenes */
+    position: fixed; /* Fija el pie de página en la parte inferior de la página */
+    bottom: 0; /* Coloca el pie de página al final de la página */
+    width: 100%; /* Ocupa todo el ancho de la página */
+    z-index: 1000; /* Asegura que el pie de página esté por encima del contenido */
 }
 
-/* Estilos para la paginación en el pie de página */
-@page {
-        content: counter(page); /* Mostrar número de página */
-    }
-}
+
+
+
