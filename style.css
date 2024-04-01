@@ -92,7 +92,7 @@ header h1 {
 }
 
 header address {
-    float: left;                                                         
+    float: none;                                                         
     font-size: 75%;
     font-style: normal;
     line-height: 1.25;
@@ -154,7 +154,7 @@ article address {
 /* table meta & balance */
 table.meta,
 table.balance {
-    float: right;
+    float: none;
     width: 36%;
 }
 
