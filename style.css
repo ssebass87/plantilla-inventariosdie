@@ -92,7 +92,7 @@ header h1 {
 }
 
 header address {
-    float: none;                                                         
+    float: right;                                                         
     font-size: 75%;
     font-style: normal;
     line-height: 1.25;
