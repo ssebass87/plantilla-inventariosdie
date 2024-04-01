@@ -281,6 +281,8 @@ header {
     right: 1cm; /* Margen derecho de 1cm */
     width: calc(100% - 2cm); /* Autoajuste al ancho de la hoja con márgenes */
     z-index: 1000; /* Asegura que el encabezado esté por encima del contenido */
+    margin-bottom: 30px; /* Ajusta el valor según sea necesario para separar el encabezado del contenido */
+}
 }
 
 /* Estilos para el pie de página */
@@ -291,6 +293,9 @@ footer {
     right: 1cm; /* Margen derecho de 1cm */
     width: calc(100% - 2cm); /* Autoajuste al ancho de la hoja con márgenes */
     z-index: 1000; /* Asegura que el pie de página esté por encima del contenido */
+    margin-top: 30px; /* Ajusta el valor según sea necesario para separar el pie de página del contenido */
+    text-align: center; /* Alinea el texto al centro en el pie de página */
+}
 }
 
 article {
