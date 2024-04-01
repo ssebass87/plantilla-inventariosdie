@@ -294,8 +294,5 @@ footer {
     z-index: 1000; /* Asegura que el pie de página esté por encima del contenido */
     margin-top: 30px; /* Ajusta el valor según sea necesario para separar el pie de página del contenido */
     text-align: center; /* Alinea el texto al centro en el pie de página */
-}
-
-article {
-    padding-top: 3em; /* Agrega un espacio en la parte superior del artículo para evitar que se superponga con el encabezado fijo */
+    font-size: 50%;
 }
