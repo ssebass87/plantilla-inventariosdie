@@ -13,7 +13,7 @@
 
 /* content editable */
 *[contenteditable] {
-    border-radius: 0.25em;
+    border-radius: 0.50em;
     min-width: 1em;
     outline: 0;
     cursor: pointer;
@@ -35,7 +35,7 @@ span[contenteditable] {
 /* heading */
 h1 {
     font: bold 100% sans-serif;
-    letter-spacing: 0.5em;
+    letter-spacing: 0.0em;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 1em; /* Añadido para espacio después del título */
@@ -92,7 +92,7 @@ header h1 {
 }
 
 header address {
-    float: right;                                                         
+    float: left;                                                         
     font-size: 75%;
     font-style: normal;
     line-height: 1.25;
