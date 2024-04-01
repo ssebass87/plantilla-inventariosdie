@@ -102,7 +102,7 @@ header address {
 header span,
 header img {
     display: block;
-    float: right;
+    float: none;
     margin: 0 0 1em 1em;
     max-height: 25%;
     max-width: 60%;
@@ -146,7 +146,7 @@ article h1 {
 }
 
 article address {
-    float: left;
+    float: none; /* Elimina la propiedad float */
     font-size: 100%;
     font-weight: normal;
 }
@@ -283,7 +283,6 @@ header {
     z-index: 1000; /* Asegura que el encabezado esté por encima del contenido */
     margin-bottom: 30px; /* Ajusta el valor según sea necesario para separar el encabezado del contenido */
 }
-}
 
 /* Estilos para el pie de página */
 footer {
@@ -295,7 +294,6 @@ footer {
     z-index: 1000; /* Asegura que el pie de página esté por encima del contenido */
     margin-top: 30px; /* Ajusta el valor según sea necesario para separar el pie de página del contenido */
     text-align: center; /* Alinea el texto al centro en el pie de página */
-}
 }
 
 article {
