@@ -275,7 +275,7 @@ tr:hover .cut {
     header {
             height: 4cm;
             position: fixed;
-            bottom: 0;
+            above: 0;
             width: 100%;
 }
     footer {
