@@ -270,10 +270,13 @@ tr:hover .cut {
 
 /* Estilo para el texto más pequeño */
 .small-text {
-    font-size: 60%;
+    font-size: 80%;
 }
     header {
             height: 4cm;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
 }
     footer {
             height: 3cm;
