@@ -204,7 +204,7 @@ aside h1 {
 .add,
 .cut {
     display: block;
-    float: left;
+    float: none;
     width: 0.6em;
     font-size: .8rem;
     padding: 0.25em 0.5em;
