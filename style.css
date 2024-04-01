@@ -272,7 +272,29 @@ tr:hover .cut {
 .small-text {
     font-size: 80%;
 }
-    
+/* Estilos para el encabezado */
+header {
+    position: fixed;
+    top: 1cm; /* Margen superior de 1cm */
+    left: 1cm; /* Margen izquierdo de 1cm */
+    right: 1cm; /* Margen derecho de 1cm */
+    width: calc(100% - 2cm); /* Autoajuste al ancho de la hoja con márgenes */
+}
+
+/* Estilos para el pie de página */
+footer {
+    position: fixed;
+    bottom: 1cm; /* Margen inferior de 1cm */
+    left: 1cm; /* Margen izquierdo de 1cm */
+    right: 1cm; /* Margen derecho de 1cm */
+    width: calc(100% - 2cm); /* Autoajuste al ancho de la hoja con márgenes */
+}
+
+/* Estilos para la paginación en el pie de página */
+@page {
+        content: counter(page); /* Mostrar número de página */
+    }
+
 header {
     margin: 0 0 3em;
     overflow: hidden; /* Añadido para manejar el colapso del margen superior */
