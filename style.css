@@ -273,14 +273,14 @@ tr:hover .cut {
     font-size: 80%;
 }
     header {
-            height: 3cm;
+            height: 0cm;
             position: fixed;
             above: 3;
-            width: 70%;
+            width: 100%;
 }
     footer {
-            height: 3cm;
+            height: 0cm;
             position: fixed;
             bottom: 3;
-            width: 70%;
+            width: 100%;
 }
