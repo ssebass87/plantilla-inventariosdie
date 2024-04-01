@@ -57,7 +57,8 @@ th, td {
 }
 
 th {
-    background: #EEE;
+    background: #0043B8; /* Relleno de color para las celdas th */
+    color: #FFF; /* Color de la fuente blanco para las celdas th */
 }
 
 /* page */
