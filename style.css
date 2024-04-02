@@ -48,7 +48,7 @@ h2 {
     margin-bottom: 2em; /* Añadido para espacio después del título */
 }
 h3 {
-    font: bold 100% sans-serif;
+    font: bold 80% sans-serif;
     letter-spacing: 0.1em;
     text-align: center;
     text-transform: uppercase;
@@ -184,7 +184,7 @@ article address {
     font-weight: normal;
 }
 
-/* table meta & balance */
+/* table meta & balance formato ancho de la columna*/
 table.meta,
 table.balance {
     float: right;
@@ -198,7 +198,7 @@ table.balance:after {
     clear: both;
 }
 
-/* table meta */
+/* table meta formato de ancho de columna*/
 table.meta th {
     width: 40%;
 }
@@ -207,10 +207,12 @@ table.meta td {
     width: 60%;
 }
 
-/* table items */
+/* table items formato titulo de texto inventario */
 table.inventory th {
     font-weight: bold;
+    color: #FFF;
     text-align: center;
+    
 }
 
 table.inventory td {
@@ -221,9 +223,8 @@ table { font-size: 60%; table-layout: fixed; width: 100%; }
 table { border-collapse: separate; border-spacing: 2px; }
 th, td { border-width: 1px; padding: 0.5em; position: relative; text-align: left; }
 th, td { border-radius: 0.25em; border-style: solid; }
-th { background: #EEE; border-color: #BBB; }
+th { background: #27649d; border-color: #BBB; }
 td { border-color: #BBB; }
-
 /* aside */
 aside h1 {
     border: none;
