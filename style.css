@@ -210,6 +210,8 @@ table.balance:after {
 /* table meta formato de ancho de columna*/
 table.meta th {
     width: 40%;
+    color: #FFF;
+    font-weight: bold;
 }
 
 table.meta td {
