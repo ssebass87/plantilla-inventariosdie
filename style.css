@@ -40,6 +40,13 @@ h1 {
     text-transform: uppercase;
     margin-bottom: 1em; /* Añadido para espacio después del título */
 }
+h2 {
+    font: bold 100% sans-serif;
+    letter-spacing: 0.5em;
+    text-align: right;
+    text-transform: uppercase;
+    margin-bottom: 1em; /* Añadido para espacio después del título */
+}
 
 /* table */
 table {
@@ -84,6 +91,13 @@ header {
 }
 
 header h1 {
+    background: #27649d;
+    border-radius: 0.25em;
+    color: #FFF;
+    margin: 0;
+    padding: 0.5em 0;
+}
+header h2 {
     background: #27649d;
     border-radius: 0.25em;
     color: #FFF;
