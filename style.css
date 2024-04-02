@@ -45,14 +45,14 @@ h2 {
     letter-spacing: 0.1em;
     text-align: right;
     text-transform: uppercase;
-    margin-bottom: 1em; /* Añadido para espacio después del título */
+    margin-bottom: 2em; /* Añadido para espacio después del título */
 }
 h3 {
     font: bold 100% sans-serif;
     letter-spacing: 0.1em;
     text-align: right;
     text-transform: uppercase;
-    margin-bottom: 1em; /* Añadido para espacio después del título */
+    margin-bottom: 2em; /* Añadido para espacio después del título */
 }
 /* table */
 table {
@@ -118,6 +118,13 @@ header h3 {
     padding: 0.5em 0;
 }
 header address {
+    float: left;
+    font-size: 75%;
+    font-style: normal;
+    line-height: 1.25;
+    margin: 0 1em 1em 0;
+}
+header address1 {
     float: left;
     font-size: 75%;
     font-style: normal;
