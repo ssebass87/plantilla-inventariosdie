@@ -62,11 +62,20 @@ table {
     border-collapse: collapse; /* Añadido para evitar problemas de bordes en algunas situaciones */
 }
 
-th, td {
+th,  {
     border: 1px solid #000; /* Añadido un borde sólido para todas las celdas */
     padding: 0.5em;
     position: relative;
     text-align: left;
+    color: #FFF;
+    font-weight: bold;
+}
+td {
+    border: 1px solid #000; /* Añadido un borde sólido para todas las celdas */
+    padding: 0.5em;
+    position: relative;
+    text-align: left;
+    
 }
 
 th {
