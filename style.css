@@ -272,17 +272,7 @@ tr:hover .cut {
 .small-text {
     font-size: 80%;
 }
-/* Estilos para el encabezado */
-header {
-    position: fixed;
-    width: 100%; /* Ocupa todo el ancho de la página */
-    top: 1cm; /* Margen superior de 1cm */
-    left: 1cm; /* Margen izquierdo de 1cm */
-    right: 1cm; /* Margen derecho de 1cm */
-    width: calc(100% - 2cm); /* Autoajuste al ancho de la hoja con márgenes */
-    z-index: 1000; /* Asegura que el encabezado esté por encima del contenido */
-    margin-bottom: 30px; /* Ajusta el valor según sea necesario para separar el encabezado del contenido */
-}
+
 
 /* Estilos para el pie de página */
 footer {
