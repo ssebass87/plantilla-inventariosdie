@@ -65,10 +65,10 @@ table {
 th,  {
     border: 1px solid #000; /* Añadido un borde sólido para todas las celdas */
     padding: 0.5em;
-    position: relative;
-    text-align: left;
     color: #FFF;
     font-weight: bold;
+    position: relative;
+    text-align: left;
 }
 td {
     border: 1px solid #000; /* Añadido un borde sólido para todas las celdas */
