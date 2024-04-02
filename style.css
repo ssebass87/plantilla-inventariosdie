@@ -194,10 +194,13 @@ article address {
 }
 
 /* table meta & balance formato ancho de la columna*/
-table.meta,
+table.meta {
+    float: left;
+    width: 36%;
+}    
 table.balance {
     float: right;
-    width: 36%;
+    width: 36%;    
 }
 
 table.meta:after,
