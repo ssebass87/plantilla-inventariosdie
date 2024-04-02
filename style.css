@@ -334,8 +334,8 @@ tr:hover .cut {
 /* Estilos para el pie de página */
 footer {
     position: fixed;
-    width: 100%; /* Autoajuste al ancho de la hoja con márgenes */
     z-index: 1000; /* Asegura que el pie de página esté por encima del contenido */
+    width: calc(100% - 2cm); /* Autoajuste al ancho de la hoja con márgenes */
     margin-top: 30px; /* Ajusta el valor según sea necesario para separar el pie de página del contenido */
     text-align: center; /* Alinea el texto al centro en el pie de página */
     font-size: 50%;
