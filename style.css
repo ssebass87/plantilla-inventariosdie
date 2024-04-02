@@ -13,7 +13,7 @@
 
 /* content editable */
 *[contenteditable] {
-    border-radius: 0.50em;
+    border-radius: 0.25em;
     min-width: 1em;
     outline: 0;
     cursor: pointer;
@@ -58,7 +58,7 @@ th, td {
 
 th {
     background: #EEE;
-
+}
 
 /* page */
 html {
@@ -92,7 +92,7 @@ header h1 {
 }
 
 header address {
-    float: left;                                                         
+    float: left;
     font-size: 75%;
     font-style: normal;
     line-height: 1.25;
@@ -102,7 +102,7 @@ header address {
 header span,
 header img {
     display: block;
-    float: none;
+    float: right;
     margin: 0 0 1em 1em;
     max-height: 25%;
     max-width: 60%;
@@ -146,9 +146,9 @@ article h1 {
 }
 
 article address {
-    float: none; /* Elimina la propiedad float */
-    font-size: 100%;
-    font-weight: normal;
+    float: left;
+    font-size: 125%;
+    font-weight: bold;
 }
 
 /* table meta & balance */
@@ -191,7 +191,6 @@ th, td { border-radius: 0.25em; border-style: solid; }
 th { background: #EEE; border-color: #BBB; }
 td { border-color: #DDD; }
 
-
 /* aside */
 aside h1 {
     border: none;
@@ -205,7 +204,7 @@ aside h1 {
 .add,
 .cut {
     display: block;
-    float: none;
+    float: left;
     width: 0.6em;
     font-size: .8rem;
     padding: 0.25em 0.5em;
@@ -271,29 +270,5 @@ tr:hover .cut {
 
 /* Estilo para el texto más pequeño */
 .small-text {
-    font-size: 80%;
-}
-/* Estilos para el encabezado */
-header {
-    position: fixed;
-    width: 100%; /* Ocupa todo el ancho de la página */
-    top: 1cm; /* Margen superior de 1cm */
-    left: 1cm; /* Margen izquierdo de 1cm */
-    right: 1cm; /* Margen derecho de 1cm */
-    width: calc(100% - 2cm); /* Autoajuste al ancho de la hoja con márgenes */
-    z-index: 1000; /* Asegura que el encabezado esté por encima del contenido */
-    margin-bottom: 30px; /* Ajusta el valor según sea necesario para separar el encabezado del contenido */
-}
-
-/* Estilos para el pie de página */
-footer {
-    position: fixed;
-    bottom: 0cm; /* Margen inferior de 1cm */
-    left: 1cm; /* Margen izquierdo de 1cm */
-    right: 1cm; /* Margen derecho de 1cm */
-    width: calc(100% - 2cm); /* Autoajuste al ancho de la hoja con márgenes */
-    z-index: 1000; /* Asegura que el pie de página esté por encima del contenido */
-    margin-top: 30px; /* Ajusta el valor según sea necesario para separar el pie de página del contenido */
-    text-align: center; /* Alinea el texto al centro en el pie de página */
-    font-size: 50%;
+    font-size: 60%;
 }
