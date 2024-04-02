@@ -152,13 +152,9 @@ article address {
 }
 
 /* table meta & balance */
-table.meta {
-    float: left;
-    width: 36%;
-}
-
+table.meta,
 table.balance {
-    float: RIGHT;
+    float: right;
     width: 36%;
 }
 
@@ -194,6 +190,7 @@ th, td { border-width: 1px; padding: 0.5em; position: relative; text-align: left
 th, td { border-radius: 0.25em; border-style: solid; }
 th { background: #EEE; border-color: #BBB; }
 td { border-color: #DDD; }
+
 
 /* aside */
 aside h1 {
