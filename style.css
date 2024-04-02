@@ -209,8 +209,8 @@ table.meta td {
 
 /* table items formato titulo de texto inventario */
 table.inventory th {
-    font-weight: bold;
     color: #FFF;
+    font-weight: bold;
     text-align: center;
     
 }
