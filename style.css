@@ -42,12 +42,18 @@ h1 {
 }
 h2 {
     font: bold 100% sans-serif;
-    letter-spacing: 0.5em;
+    letter-spacing: 0.1em;
     text-align: right;
     text-transform: uppercase;
     margin-bottom: 1em; /* Añadido para espacio después del título */
 }
-
+h3 {
+    font: bold 100% sans-serif;
+    letter-spacing: 0.1em;
+    text-align: right;
+    text-transform: uppercase;
+    margin-bottom: 1em; /* Añadido para espacio después del título */
+}
 /* table */
 table {
     font-size: 75%;
@@ -99,12 +105,18 @@ header h1 {
 }
 header h2 {
     background: #27649d;
-    border-radius: 0.25em;
+    border-radius: 0.50em;
     color: #FFF;
     margin: 0;
     padding: 0.5em 0;
 }
-
+header h3 {
+    background: #27649d;
+    border-radius: 0.50em;
+    color: #FFF;
+    margin: 0;
+    padding: 0.5em 0;
+}
 header address {
     float: left;
     font-size: 75%;
