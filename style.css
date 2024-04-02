@@ -336,6 +336,9 @@ footer {
     position: fixed;
     z-index: 1000; /* Asegura que el pie de página esté por encima del contenido */
     width: calc(100% - 2cm); /* Autoajuste al ancho de la hoja con márgenes */
+    bottom: 1cm; /* Margen inferior de 1cm */
+    left: 1,5cm; /* Margen izquierdo de 1cm */
+    right: 1,5cm; /* Margen derecho de 1cm */
     margin-top: 30px; /* Ajusta el valor según sea necesario para separar el pie de página del contenido */
     text-align: center; /* Alinea el texto al centro en el pie de página */
     font-size: 50%;
