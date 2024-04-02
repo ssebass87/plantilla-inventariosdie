@@ -207,8 +207,14 @@ table.balance:after {
     clear: both;
 }
 
-/* table meta formato de ancho de columna*/
+/* table meta formato de TEXTO mas el ancho de columna*/
 table.meta th {
+    width: 40%;
+    color: #FFF;
+    font-weight: bold;
+}
+/* table meta formato de TEXTO mas el ancho de columna*/
+table.balance th {
     width: 40%;
     color: #FFF;
     font-weight: bold;
