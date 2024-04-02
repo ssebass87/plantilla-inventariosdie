@@ -43,14 +43,14 @@ h1 {
 h2 {
     font: bold 80% sans-serif;
     letter-spacing: 0.1em;
-    text-align: right;
+    text-align: center;
     text-transform: uppercase;
     margin-bottom: 2em; /* Añadido para espacio después del título */
 }
 h3 {
     font: bold 80% sans-serif;
     letter-spacing: 0.1em;
-    text-align: right;
+    text-align: center;
     text-transform: uppercase;
     margin-bottom: 2em; /* Añadido para espacio después del título */
 }
@@ -119,7 +119,7 @@ header h3 {
 }
 header address {
     float: left;
-    font-size: 75%;
+    font-size: 60%;
     font-style: normal;
     line-height: 1.25;
     margin: 0 1em 1em 0;
