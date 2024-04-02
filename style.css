@@ -102,7 +102,7 @@ header address {
 header span,
 header img {
     display: block;
-    float: right;
+    float: none;
     margin: 0 0 1em 1em;
     max-height: 25%;
     max-width: 60%;
@@ -146,9 +146,9 @@ article h1 {
 }
 
 article address {
-    float: left;
-    font-size: 125%;
-    font-weight: bold;
+    float: none;
+    font-size: 100%;
+    font-weight: normal;
 }
 
 /* table meta & balance */
@@ -181,10 +181,10 @@ table.inventory th {
 }
 
 table.inventory td {
-    text-align: right;
+    text-align: left;
 }
 
-table { font-size: 75%; table-layout: fixed; width: 100%; }
+table { font-size: 60%; table-layout: fixed; width: 85%; }
 table { border-collapse: separate; border-spacing: 2px; }
 th, td { border-width: 1px; padding: 0.5em; position: relative; text-align: left; }
 th, td { border-radius: 0.25em; border-style: solid; }
@@ -270,5 +270,30 @@ tr:hover .cut {
 
 /* Estilo para el texto más pequeño */
 .small-text {
-    font-size: 60%;
+    font-size: 80%;
 }
+/* Estilos para el encabezado */
+header {
+    position: fixed;
+    width: 100%; /* Ocupa todo el ancho de la página */
+    top: 1cm; /* Margen superior de 1cm */
+    left: 1cm; /* Margen izquierdo de 1cm */
+    right: 1cm; /* Margen derecho de 1cm */
+    width: calc(100% - 2cm); /* Autoajuste al ancho de la hoja con márgenes */
+    z-index: 1000; /* Asegura que el encabezado esté por encima del contenido */
+    margin-bottom: 30px; /* Ajusta el valor según sea necesario para separar el encabezado del contenido */
+}
+
+/* Estilos para el pie de página */
+footer {
+    position: fixed;
+    bottom: 0cm; /* Margen inferior de 1cm */
+    left: 1cm; /* Margen izquierdo de 1cm */
+    right: 1cm; /* Margen derecho de 1cm */
+    width: calc(100% - 2cm); /* Autoajuste al ancho de la hoja con márgenes */
+    z-index: 1000; /* Asegura que el pie de página esté por encima del contenido */
+    margin-top: 30px; /* Ajusta el valor según sea necesario para separar el pie de página del contenido */
+    text-align: center; /* Alinea el texto al centro en el pie de página */
+    font-size: 50%;
+}
+
