@@ -199,7 +199,7 @@ table.meta {
     width: 36%;
 }    
 table.balance {
-    float: right;
+    float: left;
     width: 36%;    
 }
 
