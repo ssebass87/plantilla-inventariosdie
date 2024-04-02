@@ -224,7 +224,10 @@ table.balance th {
 }
 
 table.meta td {
-    width: 60%;
+    width: 50%;
+}
+table.balance td {
+    width: 20%;
 }
 
 /* table items formato titulo de texto inventario */
