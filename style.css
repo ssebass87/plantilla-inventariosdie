@@ -185,7 +185,7 @@ table.inventory th {
 }
 
 table.inventory td {
-    text-align: left;
+    text-align: right;
 }
 
 table { font-size: 75%; table-layout: fixed; width: 100%; }
