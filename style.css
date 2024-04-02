@@ -58,7 +58,7 @@ h3 {
 table {
     font-size: 75%;
     table-layout: fixed;
-    width: 80%;
+    width: 100%;
     border-collapse: collapse; /* Añadido para evitar problemas de bordes en algunas situaciones */
 }
 
@@ -227,7 +227,7 @@ table.meta td {
     width: 60%;
 }
 table.balance td {
-    width: 40%;
+    width: 60%;
 }
 
 /* table items formato titulo de texto inventario */
@@ -334,10 +334,7 @@ tr:hover .cut {
 /* Estilos para el pie de página */
 footer {
     position: fixed;
-    bottom: 1cm; /* Margen inferior de 1cm */
-    left: 1cm; /* Margen izquierdo de 1cm */
-    right: 1cm; /* Margen derecho de 1cm */
-    width: calc(100% - 2cm); /* Autoajuste al ancho de la hoja con márgenes */
+    width: 100%; /* Autoajuste al ancho de la hoja con márgenes */
     z-index: 1000; /* Asegura que el pie de página esté por encima del contenido */
     margin-top: 30px; /* Ajusta el valor según sea necesario para separar el pie de página del contenido */
     text-align: center; /* Alinea el texto al centro en el pie de página */
