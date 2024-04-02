@@ -328,7 +328,7 @@ tr:hover .cut {
 /* Estilos para el pie de página */
 footer {
     position: fixed;
-    bottom: 0cm; /* Margen inferior de 1cm */
+    bottom: 1cm; /* Margen inferior de 1cm */
     left: 1cm; /* Margen izquierdo de 1cm */
     right: 1cm; /* Margen derecho de 1cm */
     width: calc(100% - 2cm); /* Autoajuste al ancho de la hoja con márgenes */
