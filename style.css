@@ -90,19 +90,6 @@ html {
     cursor: default;
 }
 
- <style> {
-        .image-cell {
-            max-width: 100px;
-            max-height: 100px;
-            overflow: hidden;
-        }
-        .image-cell img {
-            width: 100%;
-            height: auto;
-        }
-    </style>
-
-
 body {
     box-sizing: border-box;
     margin: 0 auto;
