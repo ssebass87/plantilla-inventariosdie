@@ -227,6 +227,8 @@ table.meta td {
 }
 table.balance td {
     width: 60%;
+    font-weight: bold;
+    text-align: center;
 }
 
 /* table items formato titulo de texto inventario */
@@ -236,9 +238,9 @@ table.inventory th {
     text-align: center;
     
 }
-
+/* table items formato contenido de texto inventario */
 table.inventory td {
-    text-align: left;
+    text-align: center;
 }
 
 table { font-size: 60%; table-layout: fixed; width: 100%; }
