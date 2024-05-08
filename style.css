@@ -221,18 +221,6 @@ table.balance th {
     color: #FFF;
     font-weight: bold;
 }
-
-
-
-<style>
-    .inventory img {
-        width: 200px;
-        height: 200px;
-    }
-</style>
-
-
-
 table.meta td {
     width: 60%;
 }
